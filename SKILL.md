@@ -4,14 +4,14 @@ description: |
   Enhanced `df` combining disk usage and mount info. 
   Supports CSV, TSV, and TUI with filesystem type detection.
   
-  **Requires x-cmd**: Install x-cmd first, then use this module.
+  **Dependency**: This is an x-cmd module. Install x-cmd first (see x-cmd skill for installation options).
 
 license: Apache-2.0
 compatibility: POSIX Shell
 
 metadata:
   author: Li Junhao
-  version: "1.0.1"
+  version: "1.0.2"
   category: x-cmd-extension
   tags: [x-cmd, system, df, disk, storage]
 ---
@@ -133,7 +133,7 @@ x df --csv | x csv sql "SELECT * WHERE Use% > 80"
 - Additional inode information (iused, ifree, %iused)
 
 ### Windows
-- Uses available disk space APIs
+- Uses `wmic` or PowerShell `Get-Volume` for disk info
 - Full feature support
 
 ---
