@@ -163,7 +163,6 @@ Filesystem    Type    Size    Used    Avail   Use%    Mounted_path    Mounted_at
 
 ## Related
 
-- [Back to x-cmd Skill](../../SKILL.md)
 - [x-cmd df module](https://x-cmd.com/mod/df)
 - Native `df(1)` manual page
 - Native `mount(8)` manual page
