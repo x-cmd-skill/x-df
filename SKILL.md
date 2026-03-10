@@ -4,15 +4,14 @@ description: |
   Enhanced `df` combining disk usage and mount info. 
   Supports CSV, TSV, and TUI with filesystem type detection.
   
-  **Requires x-cmd**: Use x-cmd skill to install and use x-cmd,
-  see https://x-cmd.com/llms.txt . Note: load x-cmd with `. ~/.x-cmd.root/X` before use.
+  **Requires x-cmd**: Install x-cmd first, then use this module.
 
 license: Apache-2.0
 compatibility: POSIX Shell
 
 metadata:
   author: Li Junhao
-  version: "0.0.1"
+  version: "1.0.1"
   category: x-cmd-extension
   tags: [x-cmd, system, df, disk, storage]
 ---
@@ -163,6 +162,5 @@ Filesystem    Type    Size    Used    Avail   Use%    Mounted_path    Mounted_at
 
 ## Related
 
-- [x-cmd df module](https://x-cmd.com/mod/df)
 - Native `df(1)` manual page
 - Native `mount(8)` manual page
